@@ -1,0 +1,26 @@
+# requirements.txt
+# This file lists all necessary Python dependencies and their exact versions
+# required to run the LJMU_Research.ipynb notebook and reproduce the thesis results.
+
+# Recommended Python Version: 3.10.12
+
+# Deep Learning Frameworks
+tensorflow==2.20.0
+keras==3.11.3
+
+# Machine Learning Libraries
+lightgbm==4.6.0
+xgboost==3.1.0
+scikit-learn==1.7.2
+
+# Data and Numerical Libraries
+pandas==2.3.3
+numpy==2.2.6
+statsmodels==0.14.5
+
+# Explainability Toolkit
+shap==0.49.1
+
+# Other essential utility libraries (no version constraints applied for flexibility)
+matplotlib
+seaborn
